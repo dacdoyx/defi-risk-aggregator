@@ -1,0 +1,15 @@
+{
+  "name": "defi-risk-aggregator-api",
+  "version": "0.1.0",
+  "description": "Backend API for DeFi Risk Intelligence Aggregator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "node-fetch": "^3.0.0",
+    "cors": "^2.8.5"
+  }
+}
